@@ -1,10 +1,8 @@
 
 use core::panic;
-use std::error::Error;
 use std::io::prelude::*;
 use std::io::BufReader;
 use std::fs::File;
-use std::process::CommandArgs;
 fn main() -> () {
 
 let file = File::open("input.txt").unwrap();
